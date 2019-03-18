@@ -1,0 +1,26 @@
+{
+  "name": "themes",
+  "version": "1.0.0",
+  "description": "skip",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-sass": "^4.0.2",
+    "sass": "^1.17.3"
+  },
+  "scripts": {
+    "test": "skip"
+  },
+  "repository": {
+    "type": "git",
+    "url": "skip"
+  },
+  "keywords": [
+    "skip"
+  ],
+  "author": "aniket",
+  "license": "ISC"
+}
