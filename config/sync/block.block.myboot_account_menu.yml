@@ -1,0 +1,26 @@
+uuid: aff7ae2f-8fdb-49ff-b7cc-803156a5a495
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - myboot
+_core:
+  default_config_hash: R2K_qX0ZUMbUL6ie_-S9tZVjvqmlWKlscikgeRv9vhw
+id: myboot_account_menu
+theme: myboot
+region: navigation_collapsible
+weight: 11
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 2
+visibility: {  }

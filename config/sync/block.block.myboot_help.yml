@@ -1,0 +1,22 @@
+uuid: 8f81425f-e3e2-47de-8a9a-a39f6e6b1098
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - myboot
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: myboot_help
+theme: myboot
+region: help
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

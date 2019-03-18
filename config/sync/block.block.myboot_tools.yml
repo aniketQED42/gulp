@@ -1,0 +1,26 @@
+uuid: 91c57ca7-e57d-4fc5-b9b5-06c2bcd82809
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - myboot
+_core:
+  default_config_hash: f3Dd5TnUiFDjFZp9yEGJInwt6cUzs7O6SvLTFTATSlU
+id: myboot_tools
+theme: myboot
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

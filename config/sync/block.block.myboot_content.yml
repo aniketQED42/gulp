@@ -1,0 +1,22 @@
+uuid: b75cdeea-b43c-48ac-81ad-12b04fc50132
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - myboot
+_core:
+  default_config_hash: fNNLN48MSGSLiqwIFywCuxH2Dk_IxDbaP0kYhg_IPrg
+id: myboot_content
+theme: myboot
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

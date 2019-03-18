@@ -1,0 +1,14 @@
+uuid: 535308a9-af42-401c-9264-18df5d69d141
+name: NewProject
+mail: aniket.gaikwad@qed42.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

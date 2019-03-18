@@ -1,0 +1,20 @@
+uuid: f6114f57-6dda-45be-a9f6-f4d7d189cad6
+langcode: en
+status: true
+dependencies:
+  theme:
+    - myboot
+_core:
+  default_config_hash: ffxthelqQF8xcr4GTG4HlaNNsluiHftN0pujmQpW0bQ
+id: myboot_local_actions
+theme: myboot
+region: header
+weight: 20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }
